@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MovieDetalle">
+
+    <ImageView
+        android:id="@+id/iv_imagen"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_marginTop="15dp"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorAccent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:text="@string/sipnosis"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tv_descripcion"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorYellow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvVotacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:text="@string/votaci_n"
+                android:textStyle="italic" />
+            <TextView
+                android:id="@+id/tv_votacion"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorYellow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvFechaRelease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:text="@string/fecha_release"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tv_fecha"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorYellow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvPopularidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:text="@string/popularidad"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tv_popularidad"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorYellow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
