@@ -5,7 +5,7 @@ import android.os.AsyncTask;
 import android.util.Log;
 
 import com.example.wigilabs.MovieApplication;
-import com.example.wigilabs.controller.MovieController;
+import com.example.wigilabs.repository.local.controller.MovieController;
 import com.example.wigilabs.repository.local.db.Transaction;
 import com.example.wigilabs.repository.remote.retrofit.Api.ApiMovie;
 import com.example.wigilabs.repository.remote.retrofit.Comm.OnNotificationListener;

@@ -1,4 +1,4 @@
-package com.example.wigilabs.controller;
+package com.example.wigilabs.repository.local.controller;
 
 import android.content.ContentValues;
 import android.content.Context;
