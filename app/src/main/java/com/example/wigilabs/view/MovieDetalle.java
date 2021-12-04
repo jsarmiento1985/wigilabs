@@ -1,19 +1,16 @@
-package com.example.wigilabs;
+package com.example.wigilabs.view;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.module.AppGlideModule;
-import com.example.wigilabs.retrofit.Pojo.Movie;
-
-import java.util.ArrayList;
+import com.example.wigilabs.R;
+import com.example.wigilabs.repository.model.Pojo.Movie;
 
 public class MovieDetalle extends AppCompatActivity {
 

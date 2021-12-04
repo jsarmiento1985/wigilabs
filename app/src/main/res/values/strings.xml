@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WigiLabs</string>
+    <string name="movies">Movies</string>
+    <string name="sipnosis">Sipnosis:</string>
+    <string name="idioma">Idioma:</string>
+    <string name="fecha_release">Fecha Release:</string>
+    <string name="popularidad">Popularidad:</string>
+    <string name="votaci_n">Votación:</string>
+</resources>
